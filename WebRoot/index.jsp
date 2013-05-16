@@ -7,16 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-for(int i=0;i<99;i++) {
-	out.println(i+"<br/>");
-}
-
-%>
-
-
-
-
+<a href="table.jsp">表格</a>
 
 </body>
 </html>

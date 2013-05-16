@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+.dataTable {
+	border: 1px solid #dddddd;
+}
+
+.dataTable .frz-top{
+	position: relative; Top: expression(this.parentElement.offsetParent.parentElement.scrollTop);
+}
+.dataTable .frz-left{
+	position: relative; Left: expression(this.parentElement.offsetParent.parentElement.scrollLeft);
+}
+.dataTable h4 {
+	background: url(../images/ui-bg_glass_1x400.png) 50% 50% repeat-x;
+	height:25px;
+	line-height: 25px;
+	padding-left:8px;
+}
+.dataTable .tbar {
+	background: #E1EEF8;
+	border-top: 1px solid #dddddd;
+	padding: 2px;
+}
+table.dataTable {
+	width: 100%;
+	border-spacing: 0;
+	border: 1px solid #dddddd;
+	border-left: 0;
+	border-right: 0;
+}
+table.dataTable thead th {
+	height: 25px;
+	background: url(../images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+table.dataTable th,  table.dataTable td {
+	padding: 2px;
+	height: 18px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+}
+table.dataTable tbody tr.odd{
+	background-color: #f9f9f9;
+}
+table.dataTable tbody tr.even{
+	background-color: #ffffff;
+}
+
+
+
+
